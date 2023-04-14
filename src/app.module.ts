@@ -15,7 +15,7 @@ import { UserModule } from './user/user.module';
       password: 'root',
       database: 'blog-management',
       autoLoadEntities: true,
-      // entities: ['entities/*.js'],
+      logging: true,
       synchronize: true,
     }),
     UserModule,
